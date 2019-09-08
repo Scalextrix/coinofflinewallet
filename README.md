@@ -13,3 +13,15 @@ Both computers should have the wallet of the coin you want to use installed, the
 Code relies on the API from https://chainz.cryptoid.info/api.dws, you can apply for an API Key there.
 
 The wallets on both computers must have the RPC server enabled with "server=1" and "rpcuser=" and "rpcpassword=" set in the .conf file.
+
+# HIGH LEVEL PROCESS
+
+1: On the interntet connected computer execute "onlinecomputercode1.py"
+
+2: Transfer the HEX output to the airgapped Raspberry Pi
+
+3: On the Raspberry Pi execute "airgappedpi.py"
+
+4: Transfer the HEX output to the networked computer
+
+5: On the interntet connected computer execute "onlinecomputercode2.py"
